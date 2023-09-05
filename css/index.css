@@ -56,3 +56,13 @@ header{
     padding: 1%;
     font-size: 25px;
 }
+#hr{
+    color: var(--background-verde);
+    margin: 0;
+    padding: 0;
+    background-size: 100% 20%;
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagens/hr.jpg");
+    background-repeat: no-repeat;
+}
