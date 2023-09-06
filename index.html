@@ -11,8 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Felipa&family=Lobster+Two&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./script/menu.js"></script>
 </head>
 <body >
     <header>        
@@ -21,22 +22,37 @@
                 <p id="subtitle">a maior floresta de Cachoeirinha</p>
             </div>  
         </header>
-	<nav>
-        <div class="topnav" id="menu">
-            <a href="index.html" >Inicio</a>
-            <a href="#">Voluntários</a>
-            <a href="#">Resgates</a>
-            <a href="#">Ações</a>
-            <a href="#">Produtos</a>
-            <a href="#">Doações</a>
-            <a href="#">Matérias</a>
-            <a href="javascript:void(0);" 
+	<nav class="nav-bar">
+        <div class="nav-list" id="menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Inicio</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Voluntários</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Resgates</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Acões</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Produtos</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Doações</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Matérias</a></li>
+            </ul>
+            
+        </div>
+        <div class="mobile-menu-icon">
+           <button onclick="menuShow()"><a href="javascript:void(0);" 
             style="font-size: 15px;" 
             class="icon" onclick="myFunction()">
-            &#9776;
-            </a>
+            &#9776;</a></button>
         </div>
     </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Inicio</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Voluntários</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Resgates</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Acões</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Produtos</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Doações</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Matérias</a></li>
+        </ul>
+    </div>
     <div id="container">
         <h1 id="subtitle1">Quem somos</h1>
         <p id="p1">O coletivo Mato do Júlio é composto por
