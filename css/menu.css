@@ -68,6 +68,8 @@
         color: green;
         background-color: white;
     }
-    
+    li :hover{
+        background-color: var(--background-verde);
+    }
 }
 /*https://youtu.be/P9cSVCGj0I0/*

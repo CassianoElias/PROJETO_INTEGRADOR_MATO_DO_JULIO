@@ -1,0 +1,27 @@
+footer{
+    background-size: 100% 80%;
+    background-position: top 100% ;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/footer.jpg");
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.logofooter{
+    width: auto;
+    height: auto;
+}
+
+#footer_copyright{
+    width: auto;
+    float: right;
+}
+.imgrede{
+    width: 60px;
+    height: auto;
+}
+.imggithub{
+    width: 20px;
+    height: auto;
+}
