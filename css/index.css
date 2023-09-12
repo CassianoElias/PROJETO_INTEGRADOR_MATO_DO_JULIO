@@ -1,8 +1,9 @@
 /* variaveis */
 :root{
     --background-verde: #306c34 ;
-    --font-title: 'Felipa', cursive;
+    --font-title: 'Felipa', sans-serif;
     --font-subtitle: 'Roboto', sans-serif;
+    --font-subpage: 'Permanent Marker', sans-serif;
 }
 *{
     margin: 0;
@@ -10,7 +11,6 @@
     box-sizing: border-box;
 }
 body{
-    /*background-color: black;*/
     background-color: var(--background-verde);
 }
 header{
@@ -32,29 +32,70 @@ header{
     margin-bottom: 5%;
 }
 #subtitle{
+    margin-top: 1%;
     font-size: 20px;
     font-family: var(--font-subtitle);
 }
 #container{
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
+#box{
+    display: flex;
+    flex-direction: row-reverse;
+}
 #subtitle1{
-    margin-left: 3px;
-    padding: 1%;
+    border: solid black;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
-    width: 20%;
+    width: 50%;
+    background-size: 100% 100%;
     background-color: white;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: var(--font-subpage);
     font-size: 40px;
+}
+.imgindex{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 400px;
+    height: 400px;
 }
 #p1{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
     font-size: 25px;
+    line-height: 3rem;
+    text-indent: 3ch;
+}
+#local{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block; 
+}
+#txtlocal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.imgsobre{
+    width: 300px;
+    height: auto;
 }
 #hr{
     color: var(--background-verde);
@@ -70,4 +111,15 @@ header{
     #subtitle{
         display: none;
     }
-}
+    #mobile-container{
+        display: block;  
+    }
+    #box{
+        display: block;
+    }
+    iframe{
+        width: 480px;
+        height: 300px;
+    }
+}   
+
