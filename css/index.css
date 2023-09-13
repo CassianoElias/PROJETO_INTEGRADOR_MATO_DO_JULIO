@@ -11,6 +11,8 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
+    height: auto;
     background-color: var(--background-verde);
 }
 header{
@@ -150,6 +152,10 @@ header{
     margin-right: 2%;
 }
 @media screen and (max-width: 800px){
+    body{
+        width: 100%;
+         height: auto;
+    }
     #subtitle{
         display: none;
     }
