@@ -166,6 +166,10 @@ header{
     #importancia{
         display: block;
     }
+    .imgindex{
+        width: 300px;
+        height: auto;
+    }
 
 }   
 
