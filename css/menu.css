@@ -29,7 +29,7 @@
 .mobile-menu{
     display: none;
 }
-@media screen and (max-width:730px) {
+@media screen and (max-width:800px) {
     .nav-bar{
         align-items: center;
         text-align: center;
