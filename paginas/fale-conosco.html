@@ -60,29 +60,32 @@
             <li class="nav-item"><a href="fale-conosco.html" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
-    <form action="../index.html" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
-        <h1>Fale Conosco</h1>
-        <h2>Deixe sua mensagem que entraremos em contato</h2>
-        <label>Nome Completo: 
-            <input type="text" name="nome" placeholder="Nome" maxlength="55" minlength="3" required>
-        </label><br>
-        <label>Email: 
-            <input type="text" name="email" placeholder="exemplo@dominio.com" maxlength="55" minlength="10" required>
-        </label><br>
-        <label>(DDD): 
-            <input type="text" name="ddd" placeholder="DDD" maxlength="3" minlength="3" required>
-        </label>
-        <label>Telefone: 
-            <input type="text" name="telefone" placeholder="Telefone" maxlength="9" minlength="9" required>
-        </label><br>
-        <label>Assunto: 
-            <input type="text" name="assunto" placeholder="Assunto" maxlength="55" min="4" required>
-        </label><br>
-        <label>Mensagem: 
-            <textarea name="msg" id="msg" cols="30" rows="10" maxlength="255" required></textarea>
-        </label><br>
-        <input type="submit" value="enviar" name="enviar" id="botaoform">
-    </form>
+    <div id="formulario">
+        <form action="../index.html" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
+            <h1>Fale Conosco</h1>
+            <h2>Deixe sua mensagem que entraremos em contato</h2>
+            <label>Nome Completo: 
+                <input type="text" name="nome" placeholder="Nome" maxlength="55" minlength="3" required>
+            </label><br>
+            <label>Email: 
+                <input type="text" name="email" placeholder="exemplo@dominio.com" maxlength="55" minlength="10" required>
+            </label><br>
+            <label>(DDD): 
+                <input type="text" name="ddd" placeholder="DDD" maxlength="3" minlength="3" required>
+            </label>
+            <label>Telefone: 
+                <input type="text" name="telefone" placeholder="Telefone" maxlength="9" minlength="9" required>
+            </label><br>
+            <label>Assunto: 
+                <input type="text" name="assunto" placeholder="Assunto" maxlength="55" min="4" required>
+            </label><br>
+            <label>Mensagem: 
+                <textarea name="msg" id="msg" cols="30" rows="10" maxlength="255" required></textarea>
+            </label><br>
+            <input type="submit" value="enviar" name="enviar" id="botaoform">
+        </form>
+    </div>
+    
 
     <footer>
         <div id="footer_content">

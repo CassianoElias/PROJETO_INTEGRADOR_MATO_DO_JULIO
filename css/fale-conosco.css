@@ -37,12 +37,23 @@ header{
     font-size: 20px;
     font-family: var(--font-subtitle);
 }
-#container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+#formulario{
+    display: block;
 }
-#box{
-    display: flex;
-    flex-direction: row-reverse;
+form{
+    text-align: center;
+    text-indent: 3rch;
+
 }
+#botaoform{
+    width: 100px;
+    height: auto;
+    text-transform: uppercase;
+    color: black;
+    background-color: #306c34;
+    border-color: black;
+    box-shadow: #306c34;
+    
+}
+    
+
