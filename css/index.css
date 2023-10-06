@@ -207,13 +207,16 @@ header{
     width: 90%;
     height: 15%;
     border-radius: 50%;
-    
+}
+#itens-biologica2-mobile{
+    display:none;
 }
 @media screen and (max-width: 800px){
     body{
         width: 100%;
          height: auto;
     }
+    
     #subtitle{
         display: none;
     }
@@ -242,11 +245,16 @@ header{
         height: 300px;
     }
     #itens-biologica2{
-        display: block; 
+        display: none; 
     }
-    .nomebixo{
-    
+    #itens-biologica2-mobile{
+        display: block;
     }
+    #itens-biologica2-mobile .nomebixo{
+        width: 50%;
+        
+    }
+
 
 }   
 
