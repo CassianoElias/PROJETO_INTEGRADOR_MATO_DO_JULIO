@@ -67,7 +67,7 @@ header{
     height: 400px;
 }
 #p1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-subpage);
     padding: 1%;
     font-size: 25px;
     line-height: 3rem;
@@ -98,7 +98,7 @@ header{
     margin: 0;
     padding: 0;
     background-size: 100% 100%;
-    width: 100%;
+    width: auto;
     height: 100px;
     background-image: url("../imagens/hr.jpg");
     background-repeat: no-repeat;
@@ -211,6 +211,48 @@ header{
 #itens-biologica2-mobile{
     display:none;
 }
+#cont-final{
+    text-align: center;
+    margin-top: 10%;
+    font-family: var(--font-subpage);
+    font-weight: 1rem;
+}
+#cont-geografica{
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+    font-family: var(--font-subpage);
+}
+#anc1,#anc2,#anc3{
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: 50%;
+    background-size: 100% 100%;
+    background-color: white;
+    text-align: center;
+    font-family: var(--font-subpage);
+    font-size: 40px;
+}
+#cont-geografica p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 2rem;
+    font-size: 25px;
+}
+#mapa-fluvial{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: auto;
+    height: auto;
+}
+#cont-geografica3{
+    display: flex;
+}
+
+
 @media screen and (max-width: 800px){
     body{
         width: 100%;
@@ -222,6 +264,9 @@ header{
     }
     #mobile-container{
         display: block;  
+    }
+    #hr{
+        height: auto;
     }
     #box{
         display: block;
@@ -251,7 +296,9 @@ header{
         display: block;
     }
     #itens-biologica2-mobile .nomebixo{
-        width: 50%;
+        width: 80%;
+        height: auto;
+        margin-bottom: 10%;
         
     }
 
