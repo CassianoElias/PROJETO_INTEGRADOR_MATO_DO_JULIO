@@ -123,29 +123,14 @@ header{
     font-size: 30px;
     font-family: var(--font-subpage);
 }
-.bt-info{
+.img-imp{
     border: solid 5px red;
-    border-radius: 50%;
+    border-radius: 80%;
     width: 300px;
     height: 300px;
-    cursor: pointer;
+   
 }
-#bt-his{
-    background-repeat: no-repeat;
-    background-size: 300px 300px;
-    background-image: url(../imagens/img2.jpg);
-}
-#bt-bio{
-    background-repeat: no-repeat;
-    background-size: 300px 300px;
-    background-image: url(../imagens/img3.jpg);
-}
-#bt-geo{
-    background-repeat: no-repeat;
-    background-size: 300px 300px;
-    background-image: url(../imagens/img4.jpg);
 
-}
 #biologica{
     margin-left: 2%;
     margin-right: 2%;
@@ -227,7 +212,7 @@ header{
     border: solid black;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
-    width: 50%;
+    width: 60%;
     background-size: 100% 100%;
     background-color: white;
     text-align: center;
@@ -249,7 +234,16 @@ header{
     height: auto;
 }
 #cont-geografica3{
-    display: flex;
+    display: block;
+}
+.imggeo2{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: auto;
+    height: auto;
+
 }
 
 
@@ -272,7 +266,7 @@ header{
         display: block;
     }
     iframe{
-        width: 480px;
+        width: 400px;
         height: 300px;
     }
     #importancia{
@@ -285,9 +279,9 @@ header{
     #conteudopt1, #conteudopt2{
         display: block;
     }
-    .imghouse .imgbixo{
-        width: 300px;
-        height: 300px;
+    .imghouse, .imgbixo{
+        width: 400px;
+        height: auto;
     }
     #itens-biologica2{
         display: none; 
@@ -299,7 +293,10 @@ header{
         width: 80%;
         height: auto;
         margin-bottom: 10%;
-        
+    }
+    .imggeo2, #mapa-fluvial{
+        height: auto;
+        width: 400px;
     }
 
 

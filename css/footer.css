@@ -23,7 +23,7 @@ footer{
 
 }
 #footer_social_media{
-    display: flex;
+    display: block;
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
