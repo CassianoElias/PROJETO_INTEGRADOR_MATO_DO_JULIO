@@ -61,7 +61,7 @@
         </ul>
     </div>
     <div id="formulario">
-        <form action="../index.html" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
+        <form action="../index.php" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
             <h1>Fale Conosco</h1>
             <h2>Deixe sua mensagem que entraremos em contato</h2>
             <label>Nome Completo: 
