@@ -1,0 +1,155 @@
+/* variaveis */
+:root{
+    --background-verde: #306c34 ;
+    --font-title: 'Felipa', sans-serif;
+    --font-subtitle: 'Roboto', sans-serif;
+    --font-subpage: 'Permanent Marker', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-verde);
+}
+header{
+    background-size: 100% 80%;
+    background-position: top 100% ;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/header_fundo-removebg-preview.png");
+    background-color: white;
+    width: 100%;
+    height: 350px;
+}
+#txtheader{
+    text-align: center;
+    color: white;  
+}
+#title{
+    font-family: var(--font-title);
+    font-size: 80px;
+    margin-bottom: 5%;
+}
+#subtitle{
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: var(--font-subtitle);
+}
+
+.card-transparent {
+    width: 400px;
+    height: 350px;
+    border: dotted black 5px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.input {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+
+
+}
+
+.logo {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span:hover {
+    font-style: italic;
+
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: var(--background-verde) ;
+    font-size: medium;
+}
+
+.botao {
+    padding: 70px 0px 15px 0px;
+}
+
+
+button:hover {
+    width: 125px;
+    height: 30px;
+    background: -webkit-linear-gradient(right, #202011, var(--background-verde), white);
+    font-size: 20px;
+
+}
+
+.resetarSenha {
+    padding-top: 15px;
+}
+
+.input1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0e0d0d;
+    width: 100%;
+    background: transparent;
+    padding: 0 5px;
+}
+
+a {
+    cursor: default;
+}
+
+@media screen and (max-width: 8/00px) {
+    #subtitle{
+        display: none;
+    }
+    .card-transparent {
+        width: 280px;
+        height: 250px;
+    }
+
+    .botao{
+        width: 50px;
+        height: 15px;
+        padding-top:20px;
+        align-items: center;
+    }
+
+    .criarConta{
+        padding-top: 15px;
+     
+    }
+
+    .logo{
+        width: 200px;
+    }
+  }
