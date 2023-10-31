@@ -19,14 +19,14 @@
 	VALUES
 	('$nome','$email','$telefone','$assunto','$msg')";
 
-	if ($conn->query($sql)===true){
+	if ($conexao->query($sql)===true){
 		echo "<script language='javascript' type='text/javascript'>
 			alert('Mensagem enviado com sucesso!');
 			window.location.href='../paginas_php/fale-conosco.php';</script>";
 			die();
 		}else{
-			echo "Erro: ".$sql."<br>".$conn->error;
+			echo "Erro: ".$sql."<br>".$conexao->error;
 			echo "<br>";
 			echo "Não foi possível enviar mensagem ";
 		}
-		$conn->close();
+		$conexao->close();
