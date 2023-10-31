@@ -50,36 +50,27 @@
     </nav>
     <div class="mobile-menu">
         <ul>
-            <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Voluntários</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Resgates</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Acões</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Produtos</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Doações</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Matérias</a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link" >Inicio</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Voluntários</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Resgates</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Acões</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Produtos</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Doações</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" >Matérias</a></li>
             <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
     <div id="formulario">
-        <form action="../script_php/processa.php" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
-            <h1>Fale Conosco</h1>
-            <h2>Deixe sua mensagem que entraremos em contato</h2>
-            <label>Nome Completo: 
-                <input type="text" name="nome" placeholder="Nome" maxlength="55" minlength="3" required>
+        <form action="../script_php/recebeCadastro.php" method="post"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
+            <h1>Area do Administrador</h1>
+            <h2>Cadastre um administrador</h2>
+            <label>Usuário: 
+                <input type="text" name="usuario" placeholder="usuario"  minlength="3" required>
             </label><br>
-            <label>Email: 
-                <input type="email" name="email" placeholder="exemplo@dominio.com" maxlength="55" minlength="10" required>
-            </label><br>
-            <label>Telefone: 
-                <input type="text" name="telefone" placeholder="(xx)xxxxxxxxx" maxlength="11" minlength="11" required>
-            </label><br>
-            <label>Assunto: 
-                <input type="text" name="assunto" placeholder="Assunto" maxlength="55" min="4" required>
-            </label><br>
-            <label>Mensagem: 
-                <textarea name="msg" id="msg" cols="30" rows="10" maxlength="255" required></textarea>
-            </label><br>
-            <input type="submit" value="enviar" name="enviar" id="botaoform">
+            <label>Senha:</label>
+				<input type="password" id="senha" name="senha" minlength="5" required placeholder="********"/><br>
+           
+            <input type="submit" value="CADASTRAR" name="enviar" id="botaoform"><br>
         </form>
     </div>
     

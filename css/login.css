@@ -41,7 +41,7 @@ header{
     font-family: var(--font-subtitle);
 }
 
-.card-transparent {
+.card{
     width: 400px;
     height: 350px;
     border: dotted black 5px;
@@ -61,6 +61,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 10px 0px 10px 0px;
+    
 
 
 }
@@ -120,7 +121,7 @@ button:hover {
     font-size: 15px;
     color: #0e0d0d;
     width: 100%;
-    background: transparent;
+    background: white;
     padding: 0 5px;
 }
 

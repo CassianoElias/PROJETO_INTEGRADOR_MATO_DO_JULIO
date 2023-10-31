@@ -26,10 +26,10 @@
                 <p id="subtitle"> A maior floresta de Cachoeirinha</p>
             </div>  
         </header>
-        <form class="card-transparent" action="" method="POST">
+        <form class="card" action="showform.php" method="POST">
             <div class="input" id="validarInput">
-                <label for="email"> E-mail</label>
-                <input class="input1" type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <label for="email">Usuário</label>
+                <input class="input1" type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
             </div>
 
             <div class="input">
@@ -45,7 +45,7 @@
             </div>
 
             <div class="criarConta">
-                <span><a> Crie uma conta!</a></span>
+                <span><a href="cadastroAdm.php"> Crie uma conta!</a></span>
             </div>
 
         </form>
