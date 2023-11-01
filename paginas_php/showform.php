@@ -39,11 +39,12 @@
 
 <thead>
     <tr>
-        <th>Nome</th>
-        <th>Email</th>
-        <th>Telefone</th>
-        <th>Assunto</th>
-        <th>Mensagem</th>
+        <th >Nome</th>
+        <th >Email</th>
+        <th >Telefone</th>
+        <th >Assunto</th>
+        <th >Mensagem</th>
+        <th >Opções</th>
     </tr>
 </thead>
 <tbody>
@@ -63,8 +64,8 @@
                     <td><?php echo $linha ["assunto"]  ?></td>
                     <td><?php echo $linha ["mensagem"] ?></td>
                     <td>
-                        <button>Editar</button>
-                        <button>Excluir</button>
+                        <button id="editar" class="table-button">Editar</button>
+                        <button id="excluir" class="table-button">Excluir</button>
                     </td>
                 </tr>
                 <?php
