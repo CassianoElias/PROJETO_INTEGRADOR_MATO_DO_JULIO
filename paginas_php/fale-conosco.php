@@ -61,7 +61,7 @@
         </ul>
     </div>
     <div id="formulario">
-        <form action="../script_php/processa.php" method="host"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
+        <form action="../script_php/processa.php" method="post"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
             <h1>Fale Conosco</h1>
             <h2>Deixe sua mensagem que entraremos em contato</h2>
             <label>Nome Completo: 
@@ -77,7 +77,7 @@
                 <input type="text" name="assunto" placeholder="Assunto" maxlength="55" min="4" required>
             </label><br>
             <label>Mensagem: 
-                <textarea name="msg" id="msg" cols="30" rows="10" maxlength="255" required></textarea>
+                <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
             </label><br>
             <input type="submit" value="enviar" name="enviar" id="botaoform">
         </form>
