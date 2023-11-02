@@ -31,7 +31,7 @@
         <nav class="nav-bar">
         <div class="nav-list" id="menu">
             <ul>
-                <li class="nav-item"><a href="../paginas_php/login.php">SAIR DA AREA DO ADMINISTRADOR</a></li>
+                <li class="nav-item"><a id="menuadm" href="../paginas_php/login.php">SAIR DA AREA DO ADMINISTRADOR</a></li>
             </ul>
         </div>
         </nav>    
