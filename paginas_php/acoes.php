@@ -29,15 +29,15 @@
         </header>
 	<nav class="nav-bar">
         <div class="nav-list" id="menu">
-            <ul>
-                <li class="nav-item"><a href="index.php" class="nav-link" >Inicio</a></li>
-                <li class="nav-item"><a href="./paginas/voluntarios.php" class="nav-link" >Voluntários</a></li>
-                <li class="nav-item"><a href="./paginas/resgates.php" class="nav-link" >Resgates</a></li>
-                <li class="nav-item"><a href="./paginas/acoes.php" class="nav-link" >Acões</a></li>
-                <li class="nav-item"><a href="./paginas/produtos.php" class="nav-link" >Produtos</a></li>
-                <li class="nav-item"><a href="./paginas/doacoes.php" class="nav-link" >Doações</a></li>
-                <li class="nav-item"><a href="./paginas/materias.php" class="nav-link" >Matérias</a></li>
-                <li class="nav-item"><a href="paginas/fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
+        <ul>
+                <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
+                <li class="nav-item"><a href="voluntarios.php" class="nav-link" >Voluntários</a></li>
+                <li class="nav-item"><a href="resgates.php" class="nav-link" >Resgates</a></li>
+                <li class="nav-item"><a href="acoes.php" class="nav-link" >Acões</a></li>
+                <li class="nav-item"><a href="produtos.php" class="nav-link" >Produtos</a></li>
+                <li class="nav-item"><a href="doacoes.php" class="nav-link" >Doações</a></li>
+                <li class="nav-item"><a href="materias.php" class="nav-link" >Matérias</a></li>
+                <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
             </ul>
             
         </div>    
