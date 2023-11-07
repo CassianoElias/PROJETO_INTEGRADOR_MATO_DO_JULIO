@@ -60,7 +60,7 @@
                 <li class="nav-item"><a href="./paginas_php/fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
             </ul>
     </div>
-    <div id="mobile-container">
+    <div>
         <div id="container">
             <h2 id="subtitle1">Quem somos</h2>
             <div id="box"><p id="p1">
