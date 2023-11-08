@@ -4,18 +4,15 @@
     <title>Mato do Julio</title>
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
-<<<<<<< HEAD
 	<link rel="shortcut icon" type="image/x-icon" href="./imagens/favicon/icon_favicon.ico">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/menu.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" href="./css/scrollbar.css"> 
-=======
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
 	<link rel="stylesheet" type="text/css" href="../css/login.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
->>>>>>> a02bc05cfd1788d36030cc476517869e85de7c31
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -25,11 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<<<<<<< HEAD
-    <script src="./script/menu.js"></script>
-=======
     <script src="../script/menu.js"></script>
->>>>>>> a02bc05cfd1788d36030cc476517869e85de7c31
 </head>
 <body >
     <header>        
@@ -38,8 +31,7 @@
                 <p id="subtitle"> A maior floresta de Cachoeirinha</p>
             </div>  
         </header>
-<<<<<<< HEAD
-=======
+
         <form class="card" action="showform.php" method="POST">
             <div class="input" id="validarInput">
                 <label for="email">Usuário</label>
@@ -65,6 +57,5 @@
         </form>
 
     </main>
->>>>>>> a02bc05cfd1788d36030cc476517869e85de7c31
 </body>
 </html>

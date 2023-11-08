@@ -21,11 +21,21 @@
     <script src="./script/menu.js"></script>
 </head>
 <body >
-    <header>        
-            <div id="txtheader">
-                <h1 id="title">MATO DO JULIO</h1>
-                <p id="subtitle"> A maior floresta de Cachoeirinha</p>
-            </div>  
+    <header> 
+        <div id="txtheader">
+                <div id="header-up">
+                    <div id="cont-ramo">
+                    <img id="ramo" src="./imagens/ramo.png" alt="">
+                    </div>
+                        <h1 id="title">MATO DO JULIO</h1>
+                        
+                        <p id="subtitle"> A maior floresta de Cachoeirinha</p>
+                    </div>
+                    <div id="logo-bixos">
+                    <img id="logo-bixo" src="./imagens/bixos-logo.png" alt="">
+                    </div>
+        </div>       
+              
         </header>
 	<nav class="nav-bar">
         <div class="nav-list" id="menu">
