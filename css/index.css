@@ -36,13 +36,13 @@ body{
     width: 300px;
 
 }
-#logo-bixo{
+#img-bixo{
     float: right;
     height: 200px;
     width: auto;
 }
 
-#txtheader{
+#cabecalho{
     text-align: center;
     color: white;  
 }
@@ -266,14 +266,23 @@ body{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 920px){
     body{
         width: 100%;
          height: auto;
     }
-    
-    #subtitle{
+    #header-up{
+        margin-bottom: 10%;
+        padding-top: 3%;
+    }
+    #cont-ramo{
         display: none;
+
+    }
+    #img-bixo{
+        float: right;
+        height: 150px;
+        width: auto;
     }
     #mobile-container{
         display: block;  
