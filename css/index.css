@@ -11,11 +11,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     width: 100%;
     height: auto;
     background-color: var(--background-verde);
 }
+
 #header-up{
     background-size: 100% 80%;
     background-position: top 100% ;
@@ -24,6 +26,7 @@ body{
     width: 100%;
     height: 150px;
 }
+
 #logo-bixos{
     border-top-left-radius: 100%;
     width: 100%;
@@ -31,11 +34,13 @@ body{
     background-color: white;
     
 }
+
 #ramo{
     float: left;
     width: 300px;
 
 }
+
 #img-bixo{
     float: right;
     height: 200px;
@@ -43,13 +48,18 @@ body{
 }
 
 #cabecalho{
-    text-align: center;
-    color: white;  
+    text-align: center; 
+
 }
+
 #title{
     font-family: var(--font-title);
     font-size: 80px;
-    margin-bottom: 5%;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    
+    
 }
 #subtitle{
     color: black;
@@ -169,11 +179,14 @@ body{
 #conteudopt1{
     display: flex;
     flex-direction: row; 
+    padding-top: 1%;
 }
 #conteudopt2{
     display: flex;
     flex-direction: row; 
     margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 .imghouse{
     width: 500px;
@@ -201,6 +214,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
 }
 .nomebixo{
     margin-left: 1%;
@@ -208,9 +222,16 @@ body{
     width: 400px;
     font-family: var(--font-subpage);
     background-color: white;
-    width: 90%;
     height: 15%;
-    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
 }
 #itens-biologica2-mobile{
     display:none;
@@ -306,6 +327,7 @@ body{
     }
     #conteudopt1, #conteudopt2{
         display: block;
+        padding-top: 1%;
     }
     .imghouse, .imgbixo{
         width: 350px;
@@ -326,7 +348,7 @@ body{
         height: auto;
         width: 400px;
     }
-
+    
 
 }   
 

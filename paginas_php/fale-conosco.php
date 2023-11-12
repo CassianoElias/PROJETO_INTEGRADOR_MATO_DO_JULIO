@@ -62,24 +62,54 @@
     </div>
     <div id="formulario">
         <form action="../script_php/processa.php" method="post"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
-            <h1>Fale Conosco</h1>
-            <h2>Deixe sua mensagem que entraremos em contato</h2>
-            <label>Nome Completo: 
-                <input type="text" name="nome" placeholder="Nome" maxlength="55" minlength="3" required>
-            </label><br>
-            <label>Email: 
-                <input type="email" name="email" placeholder="exemplo@dominio.com" maxlength="55" minlength="10" required>
-            </label><br>
-            <label>Telefone: 
-                <input type="text" name="telefone" placeholder="(xx)xxxxxxxxx" maxlength="11" minlength="11" required>
-            </label><br>
-            <label>Assunto: 
-                <input type="text" name="assunto" placeholder="Assunto" maxlength="55" min="4" required>
-            </label><br>
-            <label>Mensagem: 
-                <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
-            </label><br>
-            <input type="submit" value="enviar" name="enviar" id="botaoform">
+                <h1>Fale Conosco</h1>
+                <h2>Deixe sua mensagem que entraremos em contato</h2>
+            <fieldset>
+                    <fieldset class="bloco">
+                        <div class="dados">
+                        <label>Nome Completo: </label>
+                        <label>
+                            <input type="text" name="nome" placeholder="Nome" maxlength="55" minlength="3" required>
+                    </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="bloco">
+                        <div class="dados">
+                        <label>Email: </label>
+                        <input type="email" name="email" placeholder="exemplo@dominio.com" maxlength="55" minlength="10" required>
+                    </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="bloco">
+                        <div class="dados">
+                        <label>Telefone: </label>
+                        <input type="text" name="telefone" placeholder="(xx)xxxxxxxxx" maxlength="11" minlength="11" required>
+                    </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="bloco">
+                        <div class="dados">
+                        <label>Assunto: </label>
+                        <select name="assunto" id="assunto" required>
+                                <option selected="" value="">-- Selecione o Assunto </option>
+                                <option value="Duvidas">Duvidas</option>
+                                <option value="Sugestao">Sugestões</option>
+                                <option value="Denuncia">Denuncia</option>
+                        </select>
+                    </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="bloco">
+                        <div class="dados">
+                        <label>Mensagem: 
+                        <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+                    </label>
+                    </div>
+                    <div class="area-botao">
+                    <input type="submit" value="ENVIAR" name="enviar" id="botaoform">
+                    </div>
+                    </fieldset>
+            </fieldset>
         </form>
     </div>
     

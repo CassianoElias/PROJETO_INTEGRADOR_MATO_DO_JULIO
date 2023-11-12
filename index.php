@@ -162,7 +162,10 @@
                         fauna e flora
                         </p>
                 </div>
+                <br>
+                <img class="imgbixo" src="./imagens/img8.jpg" alt="">
                 <div id="conteudopt2">
+                
                     <p>A área é ideal para espécies que estão
                         ameaçadas de extinção.
                         O bugio-ruivo já foi avistado por
@@ -170,7 +173,7 @@
                         anos atrás, mas devido a urbanização e
                         caça hoje não habitam mais a área.
                     </p>
-                        <img class="imgbixo" src="./imagens/img8.jpg" alt="">
+                        
                 </div>        
                     
                     <div id="itens-biologica2">
@@ -187,6 +190,8 @@
                         <p class="nomebixo">Lagarto Teiú</p>
                         <img class="imgbixo" src="./imagens/img14.jpg" alt="">
                     </div>
+
+
                     <div id="itens-biologica2-mobile">
                         <img class="imgbixo" src="./imagens/img9.jpg" alt="">
                         <p class="nomebixo">Besourinho</p>

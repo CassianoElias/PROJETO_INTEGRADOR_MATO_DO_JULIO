@@ -84,6 +84,7 @@ span {
     color: black;
     font-weight: bold;
     text-decoration: underline;
+
 }
 
 span:hover {
@@ -127,6 +128,17 @@ button:hover {
 
 a {
     cursor: default;
+}
+#botao-back{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 5%;
+    font-size: large;
+
+}
+#botao-back:hover{
+    font-style: italic;
 }
 
 @media screen and (max-width: 8/00px) {

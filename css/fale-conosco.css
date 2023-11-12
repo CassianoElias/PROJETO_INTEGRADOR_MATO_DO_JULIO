@@ -4,16 +4,19 @@
     --font-subtitle: 'Roboto', sans-serif;
     --font-subpage: 'Permanent Marker', sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     width: 100%;
     height: auto;
     background-color: var(--background-verde);
 }
+
 header{
     background-size: 100% 80%;
     background-position: top 100% ;
@@ -23,10 +26,12 @@ header{
     width: 100%;
     height: 350px;
 }
+
 #txtheader{
     text-align: center;
     color: white;  
 }
+
 #title{
     font-family: var(--font-title);
     font-size: 80px;
@@ -37,23 +42,128 @@ header{
     font-size: 20px;
     font-family: var(--font-subtitle);
 }
+/*  css formulario */
 #formulario{
     display: block;
 }
+
 form{
     text-align: center;
     text-indent: 3rch;
 
 }
+
+fieldset{
+    text-align: center;
+    height: auto;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;  
+}
+.info{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.dados{
+    margin-bottom: 5px;
+    color: #666;
+    display: block;
+}
+.dados input[type="text"],
+.dados input[type="email"],
+.dados input[type="tel"],
+.dados select,
+.dados textarea{
+    padding: 3px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 8px green;
+    border-radius: 8px;
+}
+#ddd{
+    width: 50px;
+}
+#celular{
+    width: 225px;
+}
+.dados input[type="text"],
+.dados input[type="email"],
+.dados input[type="password"],
+.dados select,
+.dados textarea{
+    width: 250px;
+}
+
+.dados input:focus,
+.dados select:focus,
+.dados textarea:focus{
+    background-color: #888;
+    outline: none;
+}
+.dados{
+    color: black;
+}
+.dados:hover{
+    transform: scale(105%);
+}
+.area-botao{
+    padding-top: 5%;
+}
 #botaoform{
     width: 100px;
-    height: auto;
+    height: 50px;
     text-transform: uppercase;
-    color: black;
     background-color: #306c34;
-    border-color: black;
-    box-shadow: #306c34;
+    border-color: white;
+    box-shadow: black;
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #222;
+    border-radius:  50px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 5px 7px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #306c34;
     
 }
+
+#botaoform:hover{
+    background-color: black;
+    transform: scale(105%);
+    
+}
+select{
+    cursor: pointer;
+}
+
+@media (max-width: 920px){
+    #txtform{
+        text-align: center;
+    }
+    fieldset{
+        text-align: center;
+    }
+    #echo1{
+        line-height: 1.5rem;
+        font-weight: bold;
+        background-color: white;
+        width: 20%;
+        border-radius: 10%;
+        text-align: center;
+    }
+}
+
+
+
     
 

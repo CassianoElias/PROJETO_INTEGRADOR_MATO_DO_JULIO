@@ -53,6 +53,7 @@
             <div class="criarConta">
                 <span><a href="cadastroAdm.php"> Crie uma conta!</a></span>
             </div>
+            <a id="botao-back" href="../index.php">Retornar</a>
 
         </form>
 
