@@ -71,28 +71,32 @@
     <div>
         <div id="container">
             <h2 id="subtitle1">Quem somos</h2>
-            <div id="box"><p id="p1">
-            O coletivo Mato do Júlio é composto por
-            pessoas que defendem a área da
-            especulação imobiliária e política.
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;Nosso objetivo é conseguir a
-            preservação total da área, protegendo
-            toda fauna e flora que ali habitam, seu
-            material histórico e cultural.</p>
-            <img class="imgindex" src="./imagens/img1.jpg" alt="coletivomato" title="Voluntarios"></div>
+                <div id="box">
+                    <p id="p1"> O coletivo Mato do Júlio é composto por
+                                pessoas que defendem a área da
+                                especulação imobiliária e política.
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;Nosso objetivo é conseguir a
+                                preservação total da área, protegendo
+                                toda fauna e flora que ali habitam, seu
+                                material histórico e cultural.
+                    </p>
+            <img class="imgindex" src="./imagens/img1.jpg" alt="coletivomato" title="Voluntarios">
+        </div>
                 
         </div>
-        <div id="container">
-            <h2 id="subtitle1">O que é</h2>
-            <div id="box">
-            <p id="p1">O Mato do Júlio é composto por
-                uma área de 256 hectares,
-                localizado no município de
-                Cachoeirinha - RS <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Nele encontramos predomínio do
-                bioma Mata Atlântica e resquícios
-                do bioma Pampa.</p>
-                <img class="imgindex" src="./imagens/mapa.jpg" alt="mapa" title="Imagem Satelite"></div>
+            <div id="container">
+                <h2 id="subtitle1">O que é</h2>
+                    <div id="box">
+                        <p id="p1">O Mato do Júlio é composto por
+                                    uma área de 256 hectares,
+                                    localizado no município de
+                                    Cachoeirinha - RS <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Nele encontramos predomínio do
+                                    bioma Mata Atlântica e resquícios
+                                    do bioma Pampa.
+                        </p>
+                            <img class="imgindex" src="./imagens/mapa.jpg" alt="mapa" title="Imagem Satelite">
+        </div>
                 
             <div id="local">
                     <p id="txtlocal">📌 confira no mapa a sua localização 📌 </p>

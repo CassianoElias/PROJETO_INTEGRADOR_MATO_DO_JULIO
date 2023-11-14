@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
-	<link rel="stylesheet" type="text/css" href="../css/fale-conosco.css">
+	<link rel="stylesheet" type="text/css" href="../css/voluntarios.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -21,11 +21,19 @@
     <script src="./script/menu.js"></script>
 </head>
 <body >
-    <header>        
-            <div id="txtheader">
-                <h1 id="title">MATO DO JULIO</h1>
-                <p id="subtitle"> A maior floresta de Cachoeirinha</p>
-            </div>  
+<header> 
+        <div id="cabecalho">
+                <div id="header-up">
+                    <div id="cont-ramo">
+                        <img id="ramo" src="../imagens/ramo.png" alt="">
+                    </div>
+                        <h1 id="title">MATO DO JULIO</h1>
+                </div>
+                <div id="logo-bixos">
+                    <img id="img-bixo" src="../imagens/bixos-logo.png" alt="">
+                </div>
+        </div>       
+              
         </header>
 	<nav class="nav-bar">
         <div class="nav-list" id="menu">
@@ -60,20 +68,23 @@
             <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
-   
-    <div id="container">
-            <h2 id="subtitle1">Voluntários</h2>
-            <img class="img-voluntarios" src="../imagens/voluntarios1.jpg" alt="coletivomato" title="Voluntarios">
-            <img class="img-voluntarios" src="../imagens/voluntarios2.jpg" alt="coletivomato" title="Voluntarios">
-
-            <h2 id="subtitle1">O que fazemos?</h2>
-                <p>-> Participação no Conselho Municipal do Meioambiente;</p>
-                <p>-> Pesquisas científicas na área;</p>
-                <p>-> Resgate de animais silvestres;</p>
-             
+   <div>
+        <div id="container">
+                <h2 id="subtitle1">Voluntários</h2>
+                <div id="box">
+                    <img class="img-voluntarios" src="../imagens/voluntarios1.jpg" alt="coletivomato" title="Voluntarios">
+                    <img class="img-voluntarios" src="../imagens/voluntarios2.jpg" alt="coletivomato" title="Voluntarios">
+                </div>
+                
         </div>
+                <h2 id="subtitle1">O que fazemos?</h2>
+                <div>
+                    <p id="p1">-> Participação no Conselho Municipal do Meioambiente;</p>
+                    <p id="p1">-> Pesquisas científicas na área;</p>
+                    <p id="p1">-> Resgate de animais silvestres;</p>
 
-
+        </div>
+   </div>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">

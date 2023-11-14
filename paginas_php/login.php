@@ -25,12 +25,19 @@
     <script src="../script/menu.js"></script>
 </head>
 <body >
-    <header>        
-            <div id="txtheader">
-                <h1 id="title">MATO DO JULIO</h1>
-                <p id="subtitle"> A maior floresta de Cachoeirinha</p>
-            </div>  
-        </header>
+<header> 
+            <div id="cabecalho">
+                    <div id="header-up">
+                        <div id="cont-ramo">
+                            <img id="ramo" src="../imagens/ramo.png" alt="">
+                        </div>
+                            <h1 id="title">MATO DO JULIO</h1>
+                    </div>
+                    <div id="logo-bixos">
+                        <img id="img-bixo" src="../imagens/bixos-logo.png" alt="">
+                    </div>
+            </div>       
+    </header>
 
         <form class="card" action="showform.php" method="POST">
             <div class="input" id="validarInput">
@@ -57,6 +64,37 @@
 
         </form>
 
+       
+   
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                
+            <img class="logofooter" src="../imagens/./logo-removebg-preview.png"  alt="logomatodojulio" title="Mato do Julio">
+            <img class="logofooter" src="../imagens/associacao-removebg-preview.png" alt="logoassociacao" title="Associação de preservação da natureza">
+                
+                </div>
+                <div id="footer_social_media">
+                    
+                    <a href="https://www.instagram.com/matodojulio/" class="social" alt="Instagram" >
+                    <img class="imgrede" src="../imagens/redes/logo_insta.png" alt="instagram" title="Instagram"></a>
+                    
+                    <a href="https://www.facebook.com/matodojulio/" class="social alt="Facebook" >
+                    <img class="imgrede" src="../imagens/redes/logo_face.png" alt="Facebook"  title="Facebook"></a>
+
+                    <a href="https://twitter.com/MatoDoJulio" class="social" alt="Twitter" title="Twitter" >
+                    <img class="imgrede" src="../imagens/redes/logo_twitter.png" alt="Twitter" title="Twitter"></a>
+                            
+                    <a href="https://www.youtube.com/@matodojulio" class="social" alt="Youtube" >
+                    <img class="imgrede" src="../imagens/redes/logo_youtube.png" alt="Youtube" title="Youtube"></a>	
+                </div>
+            
+        </div>
+        <div id="footer_copyright" >
+            &#169
+            2023 all rights reserved <a href="https://github.com/CassianoElias"> <img class="imggithub" src="../imagens/redes/github_black.png" alt="github"> </a>
+        </div>
+    </footer>
     </main>
 </body>
 </html>

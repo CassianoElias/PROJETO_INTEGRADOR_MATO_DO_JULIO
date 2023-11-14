@@ -1,0 +1,106 @@
+/* variaveis */
+:root{
+    --background-verde: #306c34 ;
+    --font-title: 'Felipa', sans-serif;
+    --font-subtitle: 'Roboto', sans-serif;
+    --font-subpage: 'Permanent Marker', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-verde);
+}
+#header-up{
+    background-size: 100% 80%;
+    background-position: top 100% ;
+    background-repeat: no-repeat;
+    background-color: var(--background-verde);
+    width: 100%;
+    height: 150px;
+}
+
+#logo-bixos{
+    border-top-left-radius: 100%;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    
+}
+
+#ramo{
+    float: left;
+    width: 300px;
+
+}
+
+#img-bixo{
+    float: right;
+    height: 200px;
+    width: auto;
+}
+
+#cabecalho{
+    text-align: center; 
+
+}
+
+#title{
+    font-family: var(--font-title);
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    
+    
+}
+#subtitle{
+    color: black;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: var(--font-subtitle);
+}
+
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#subtitle1{
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: 50%;
+    height: 60px;
+    background-size: 100% 100%;
+    background-color: white;
+    text-align: center;
+    font-family: var(--font-subpage);
+    font-size: 40px;
+}
+.img-voluntarios{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 500px;
+    height: auto;
+}
+#p1{
+    font-family: var(--font-subpage);
+    padding: 1%;
+    font-size: 25px;
+    line-height: 3rem;
+    text-indent: 3ch;
+}

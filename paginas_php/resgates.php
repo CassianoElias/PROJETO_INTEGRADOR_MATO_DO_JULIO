@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
-	<link rel="stylesheet" type="text/css" href="../css/fale-conosco.css">
+	<link rel="stylesheet" type="text/css" href="../css/resgates.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -21,11 +21,19 @@
     <script src="./script/menu.js"></script>
 </head>
 <body >
-    <header>        
-            <div id="txtheader">
-                <h1 id="title">MATO DO JULIO</h1>
-                <p id="subtitle"> A maior floresta de Cachoeirinha</p>
-            </div>  
+<header> 
+        <div id="cabecalho">
+                <div id="header-up">
+                    <div id="cont-ramo">
+                        <img id="ramo" src="../imagens/ramo.png" alt="">
+                    </div>
+                        <h1 id="title">MATO DO JULIO</h1>
+                </div>
+                <div id="logo-bixos">
+                    <img id="img-bixo" src="../imagens/bixos-logo.png" alt="">
+                </div>
+        </div>       
+              
         </header>
 	<nav class="nav-bar">
         <div class="nav-list" id="menu">
