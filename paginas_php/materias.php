@@ -72,29 +72,29 @@
         <footer>   
         <div id="footer_content">
             <div id="footer-bixo">
-            <img id="img-footer" src="./imagens/footer.png" alt="">
+            <img id="img-footer" src="../imagens/footer.png" alt="">
             </div>
                 <div id="footer_social_media">
                     
                     <a href="https://www.instagram.com/matodojulio/" class="social" alt="Instagram" >
-                    <img class="imgrede" src="./imagens/redes/logo_insta.png" alt="instagram" title="Instagram"></a>
+                    <img class="imgrede" src="../imagens/redes/logo_insta.png" alt="instagram" title="Instagram"></a>
                     
                     <a href="https://www.facebook.com/matodojulio/" class="social alt="Facebook" >
-                    <img class="imgrede" src="./imagens/redes/logo_face.png" alt="Facebook"  title="Facebook"></a>
+                    <img class="imgrede" src="../imagens/redes/logo_face.png" alt="Facebook"  title="Facebook"></a>
 
                     <a href="https://twitter.com/MatoDoJulio" class="social" alt="Twitter" title="Twitter" >
-                    <img class="imgrede" src="./imagens/redes/logo_twitter.png" alt="Twitter" title="Twitter"></a>
+                    <img class="imgrede" src="../imagens/redes/logo_twitter.png" alt="Twitter" title="Twitter"></a>
                             
                     <a href="https://www.youtube.com/@matodojulio" class="social" alt="Youtube" >
-                    <img class="imgrede" src="./imagens/redes/logo_youtube.png" alt="Youtube" title="Youtube"></a>	
+                    <img class="imgrede" src="../imagens/redes/logo_youtube.png" alt="Youtube" title="Youtube"></a>	
                 </div>
             
         </div>
         <div id="footer_copyright" >
             &#169
-            2023 all rights reserved <a href="https://github.com/CassianoElias"> <img class="imggithub" src="./imagens/redes/github_black.png" alt="github"> </a>
-            <a href="./paginas_php/login.php">Area do Administrador</a>
+            2023 all rights reserved <a href="https://github.com/CassianoElias"> <img class="imggithub" src="../imagens/redes/github_black.png" alt="github"> </a>
+            <a href="../paginas_php/login.php">Area do Administrador</a>
         </div>
     </footer>
-</body>
-     
+    </body>
+</html>

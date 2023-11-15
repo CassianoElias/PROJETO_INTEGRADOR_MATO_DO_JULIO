@@ -3,13 +3,9 @@
 <head>
     <title>Mato do Julio</title>
     <meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
-	<link rel="shortcut icon" type="image/x-icon" href="./imagens/favicon/icon_favicon.ico">
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
-	<link rel="stylesheet" type="text/css" href="./css/menu.css">
-    <link rel="stylesheet" type="text/css" href="./css/footer.css">
-    <link rel="stylesheet" type="text/css" href="./css/scrollbar.css"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	 
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/login.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -39,6 +35,8 @@
             </div>       
     </header>
 
+    
+
         <form class="card" action="showform.php" method="POST">
             <div class="input" id="validarInput">
                 <label for="email">Usuário</label>
@@ -66,14 +64,11 @@
 
        
    
-    <footer>
+        <footer>   
         <div id="footer_content">
-            <div id="footer_contacts">
-                
-            <img class="logofooter" src="../imagens/./logo-removebg-preview.png"  alt="logomatodojulio" title="Mato do Julio">
-            <img class="logofooter" src="../imagens/associacao-removebg-preview.png" alt="logoassociacao" title="Associação de preservação da natureza">
-                
-                </div>
+            <div id="footer-bixo">
+            <img id="img-footer" src="../imagens/footer.png" alt="">
+            </div>
                 <div id="footer_social_media">
                     
                     <a href="https://www.instagram.com/matodojulio/" class="social" alt="Instagram" >
@@ -93,6 +88,7 @@
         <div id="footer_copyright" >
             &#169
             2023 all rights reserved <a href="https://github.com/CassianoElias"> <img class="imggithub" src="../imagens/redes/github_black.png" alt="github"> </a>
+            <a href="../paginas_php/login.php">Area do Administrador</a>
         </div>
     </footer>
     </main>

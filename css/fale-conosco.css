@@ -77,6 +77,25 @@ form{
     text-indent: 3rch;
 
 }
+select {
+    color: gray;
+  }
+  
+  select:hover,
+  select:focus,
+  select:active,
+  select:checked {
+    color: red;
+    background-color: white;
+  }
+  
+  select option {
+    color: #333;
+  }
+  
+  option[value=""][disabled] {
+    display: none;
+  }
 
 fieldset{
     text-align: center;
@@ -87,16 +106,10 @@ fieldset{
     font-weight: bold;
     padding: 10px;  
 }
-.info{
-    background-color: white;
-    width: 50%;
-    margin-left: 25%;
-    border: solid black;
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-top-left-radius: 80px;
-    border-bottom-left-radius: 80px;
-}
+input::placeholder {
+    color: black;
+  }
+
 .dados{
     margin-bottom: 5px;
     color: #666;
@@ -107,17 +120,13 @@ fieldset{
 .dados input[type="tel"],
 .dados select,
 .dados textarea{
+    background-color: #888;
     padding: 3px;
     border: 2px solid black;
     box-shadow: 10px 10px 8px green;
     border-radius: 8px;
 }
-#ddd{
-    width: 50px;
-}
-#celular{
-    width: 225px;
-}
+
 .dados input[type="text"],
 .dados input[type="email"],
 .dados input[type="password"],
@@ -129,14 +138,12 @@ fieldset{
 .dados input:focus,
 .dados select:focus,
 .dados textarea:focus{
-    background-color: #888;
+    background-color: white;
     outline: none;
 }
 .dados{
     color: black;
-}
-.dados:hover{
-    transform: scale(105%);
+    
 }
 .area-botao{
     padding-top: 5%;
@@ -178,14 +185,7 @@ select{
     fieldset{
         text-align: center;
     }
-    #echo1{
-        line-height: 1.5rem;
-        font-weight: bold;
-        background-color: white;
-        width: 20%;
-        border-radius: 10%;
-        text-align: center;
-    }
+    
 }
 
 
