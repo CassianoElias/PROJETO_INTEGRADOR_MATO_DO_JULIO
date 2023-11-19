@@ -63,14 +63,8 @@
     width: 30px;
     height: auto;
 }
+
 @media screen and (max-width: 920px){
-    #footer_content{
-        display: flex;
-    }
-    
-    
-}
-@media screen and (max-width: 630px){
     #footer_content{
         display: flex;
         flex-direction: column;

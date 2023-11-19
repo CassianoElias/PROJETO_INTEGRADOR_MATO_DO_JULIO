@@ -25,7 +25,7 @@
 						$inserir = "INSERT INTO 
 						admin (usuario, senha)
 						VALUES('$usuario','$criptografia')";
-						$executar = mysqli_query($conn,$inserir);
+						$executar = mysqli_query($conexao,$inserir);
 						if($executar){
 						echo "<script language='javascript' type='text/javascript'>
 						alert('Usuario cadastrado com sucesso!');

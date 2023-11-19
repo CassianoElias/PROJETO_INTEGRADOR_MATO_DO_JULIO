@@ -17,33 +17,6 @@ body{
     background-color: var(--background-verde);
 }
 
-header{
-    background-size: 100% 80%;
-    background-position: top 100% ;
-    background-repeat: no-repeat;
-    background-image: url("../imagens/header_fundo-removebg-preview.png");
-    background-color: white;
-    width: 100%;
-    height: 350px;
-}
-
-#txtheader{
-    text-align: center;
-    color: white;  
-}
-
-#title{
-    font-family: var(--font-title);
-    font-size: 80px;
-    margin-bottom: 5%;
-}
-
-#subtitle{
-    margin-top: 1%;
-    font-size: 20px;
-    font-family: var(--font-subtitle);
-}
-
 #menuadm{
     padding: 10px;
     border: solid 1px black;
@@ -80,11 +53,40 @@ tbody{
     width: 150px;
     height: auto;
 }
+#campo-botao a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
 
-#excluir{
+#campo-botao{
+    padding: 20px 20px;
+
+}
+#botao-excluir{
+    background-color: var(--background-verde);
+    color: black;
+    border: solid black;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 10px 10px;
+    
+}
+
+#botao-excluir:hover{
+    transform: scale(110%);
     background-color: red;
 }
 
-#editar{
-    background-color: blue;
-}
+
+
+
+@media screen and (max-width: 920px){
+    #menuadm{
+        width: 100%;
+         height: 20px;
+    }
+
+     }

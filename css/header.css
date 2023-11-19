@@ -1,0 +1,70 @@
+#header-up{
+    background-size: 100% 80%;
+    background-position: top 100% ;
+    background-repeat: no-repeat;
+    background-color: var(--background-verde);
+    width: 100%;
+    height: 150px;
+}
+
+#logo-bixos{
+    border-top-left-radius: 100%;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    
+}
+
+#ramo{
+    float: left;
+    width: 300px;
+
+}
+
+#img-bixo{
+    float: right;
+    height: 200px;
+    width: auto;
+}
+
+#cabecalho{
+    text-align: center; 
+
+}
+
+#title{
+    font-family: var(--font-title);
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    
+    
+}
+#subtitle{
+    color: black;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: var(--font-subtitle);
+}
+
+@media screen and (max-width: 920px){
+    body{
+        width: 100%;
+         height: auto;
+    }
+    #header-up{
+        margin-bottom: 10%;
+        padding-top: 3%;
+    }
+    #cont-ramo{
+        display: none;
+
+    }
+    #img-bixo{
+        float: right;
+        height: 150px;
+        width: auto;
+    }
+
+                                    }

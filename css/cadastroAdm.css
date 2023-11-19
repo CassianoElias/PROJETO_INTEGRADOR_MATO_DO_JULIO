@@ -17,43 +17,19 @@ body{
     height: auto;
     background-color: var(--background-verde);
 }
-
-/*  css formulario */
-#formulario{
+#card{
     display: block;
-    padding-top: 5%;
-    
-}
-.container-txt{
-    padding-left: 30%;
-    padding-bottom: 5%;
-}
-#about{
-    border: solid black;
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-top-left-radius: 80px;
-    border-bottom-left-radius: 80px;
-    width: 50%;
-    background-color: white;
-    text-align: center;
-    font-family: var(--font-subpage);
-    font-size: 30px;
-}
-#text{
-    font-family: var(--font-subpage);
-    padding-right: 48%;
-    padding-left: 1%;
     width: 100%;
 }
-
-form{
-    
+.adm-txt{
     text-align: center;
-    text-indent: 3rch;
+    
+    
 }
-
-
+#text{
+   
+    width: 100%;
+}
 fieldset{
     text-align: center;
     height: auto;
@@ -64,19 +40,6 @@ fieldset{
     padding: 10px;  
 }
 
-/*  css dos campos de dados  */
-
-select, textarea{
-    cursor: pointer;
-    background-color: white;
-    padding: 3px;
-    border: 2px solid black;
-    box-shadow: 10px 10px 8px  green;
-    border-radius: 8px;
-}
-
-
-
 input::placeholder {
     color: black;
   }
@@ -86,9 +49,8 @@ input::placeholder {
     display: block;
 }
 .dados input[type="text"],
-.dados input[type="email"],
-.dados input[type="tel"],
-textarea
+.dados input[type="password"]
+
 {
     
     background-color: white;
@@ -96,14 +58,7 @@ textarea
     border: 2px solid black;
     box-shadow: 10px 10px 8px  green;
     border-radius: 8px;
-}
-
-
-.dados input[type="text"],
-.dados input[type="email"],
-.dados select,
-.dados textarea{
-    width: 250px;
+    width: 250px
 }
 
 .dados input:focus,
@@ -113,15 +68,6 @@ textarea
     background-color: white;
     outline: none;
 }
-.dados{
-    color: black;
-    
-}
-
-
-/* css botao */
-
-
 .area-botao{
     padding-top: 5%;
 }
@@ -151,6 +97,7 @@ textarea
     transform: scale(105%);
     
 }
+
 
 
 @media (max-width: 920px){

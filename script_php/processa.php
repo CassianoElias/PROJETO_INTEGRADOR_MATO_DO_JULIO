@@ -8,12 +8,7 @@
 	$assunto = $_POST['assunto'];
 	$msg = $_POST['msg'];
 
-	/*$a = new Envio ();
-	$a->setNome($nome);
-	$a->setEmail($email);
-	$a->setTelefone($telefone);
-	$a->setAssunto($assunto);
-	$a->setMsg($msg);*/
+	
 
 	$sql = "INSERT INTO faleconosco(nomeCompleto,email,telefone,assunto,mensagem)
 	VALUES

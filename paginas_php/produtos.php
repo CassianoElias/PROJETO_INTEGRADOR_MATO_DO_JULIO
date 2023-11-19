@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Mato do Julio</title>
+    <title>Produtos</title>
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
+    <!--links css--->
 	<link rel="stylesheet" type="text/css" href="../css/voluntarios.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <!--import font--->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -18,7 +22,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script src="./script/menu.js"></script>
+    <!--link script JS--->
+    <script src="../script/menu.js"></script>
 </head>
 <body >
 <header> 
@@ -58,17 +63,17 @@
     </nav>
     <div class="mobile-menu">
         <ul>
-            <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Voluntários</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Resgates</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Acões</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Produtos</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Doações</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Matérias</a></li>
-            <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
+                <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
+                <li class="nav-item"><a href="voluntarios.php" class="nav-link" >Voluntários</a></li>
+                <li class="nav-item"><a href="resgates.php" class="nav-link" >Resgates</a></li>
+                <li class="nav-item"><a href="acoes.php" class="nav-link" >Acões</a></li>
+                <li class="nav-item"><a href="produtos.php" class="nav-link" >Produtos</a></li>
+                <li class="nav-item"><a href="doacoes.php" class="nav-link" >Doações</a></li>
+                <li class="nav-item"><a href="materias.php" class="nav-link" >Matérias</a></li>
+                <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
-   
+</body>
     <footer>   
         <div id="footer_content">
             <div id="footer-bixo">
@@ -96,3 +101,4 @@
             <a href="../paginas_php/login.php">Area do Administrador</a>
         </div>
     </footer>
+</html>

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Mato do Julio</title>
+    <title>Fale Conosco</title>
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
+<!--link css--->
 	<link rel="stylesheet" type="text/css" href="../css/fale-conosco.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
+<!--import font--->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Felipa&family=Lobster+Two&display=swap" rel="stylesheet">
@@ -18,7 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script src="./script/menu.js"></script>
+    <!--link script JS--->
+    <script src="../script/menu.js"></script>
 </head>
 <body >
 <header> 
@@ -35,9 +39,10 @@
         </div>       
               
         </header>
-	<nav class="nav-bar">
+
+        <nav class="nav-bar">
         <div class="nav-list" id="menu">
-            <ul>
+        <ul>
                 <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
                 <li class="nav-item"><a href="voluntarios.php" class="nav-link" >Voluntários</a></li>
                 <li class="nav-item"><a href="resgates.php" class="nav-link" >Resgates</a></li>
@@ -58,20 +63,24 @@
     </nav>
     <div class="mobile-menu">
         <ul>
-            <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Voluntários</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Resgates</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Acões</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Produtos</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Doações</a></li>
-            <li class="nav-item"><a href="index.php" class="nav-link" >Matérias</a></li>
-            <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
+                <li class="nav-item"><a href="../index.php" class="nav-link" >Inicio</a></li>
+                <li class="nav-item"><a href="voluntarios.php" class="nav-link" >Voluntários</a></li>
+                <li class="nav-item"><a href="resgates.php" class="nav-link" >Resgates</a></li>
+                <li class="nav-item"><a href="acoes.php" class="nav-link" >Acões</a></li>
+                <li class="nav-item"><a href="produtos.php" class="nav-link" >Produtos</a></li>
+                <li class="nav-item"><a href="doacoes.php" class="nav-link" >Doações</a></li>
+                <li class="nav-item"><a href="materias.php" class="nav-link" >Matérias</a></li>
+                <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
+
     <div id="formulario">
         <form action="../script_php/processa.php" method="post"><!--ENVIAR PARA O ARQUIVO dados.php method="post"-->
-                <h1>Fale Conosco</h1>
-                <h2>Deixe sua mensagem que entraremos em contato</h2>
+                <div class="container-txt">
+                        <h1 id="about">Fale Conosco</h1>
+                        <h2 id="text">Deixe sua mensagem que entraremos em contato</h2>
+                </div>
+        
             <fieldset>
                     <fieldset class="bloco">
                         <div class="dados">
@@ -99,7 +108,7 @@
                         <div class="dados">
                         <label>Assunto: </label>
                         <select name="assunto" id="assunto" required>
-                                <option selected="" value="">-- Selecione o Assunto </option>
+                                <option selected="" value="" disabled selected>-- Selecione o Assunto --</option>
                                 <option value="Duvidas">Duvidas</option>
                                 <option value="Sugestao">Sugestões</option>
                                 <option value="Denuncia">Denuncia</option>
@@ -120,9 +129,9 @@
             </fieldset>
         </form>
     </div>
-    
+</body>
 
-    <footer>   
+<footer>   
         <div id="footer_content">
             <div id="footer-bixo">
             <img id="img-footer" src="../imagens/footer.png" alt="">
@@ -149,4 +158,4 @@
             <a href="../paginas_php/login.php">Area do Administrador</a>
         </div>
     </footer>
-</body>
+</html>

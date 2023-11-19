@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Mato do Julio</title>
+    <title>Login</title>
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	 
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
+<!--links css--->
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/login.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+<!--import font--->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--link script JS--->
     <script src="../script/menu.js"></script>
 </head>
 <body >
@@ -35,9 +39,8 @@
             </div>       
     </header>
 
-    
-
-        <form class="card" action="showform.php" method="POST">
+        <form class="card" action="../script_php/verificarLogin.php" method="POST">
+            
             <div class="input" id="validarInput">
                 <label for="email">Usuário</label>
                 <input class="input1" type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
@@ -51,8 +54,8 @@
                 Esqueceu sua senha? <span><a>Clique aqui!</a></span>
             </div>
 
-            <div class="botao">
-                <button> Entrar </button>
+            <div class="cont-botao">
+                <button type="submit" class="botao" name="entrar" > Entrar </button>
             </div>
 
             <div class="criarConta">
@@ -63,7 +66,7 @@
         </form>
 
        
-   
+   </body>
         <footer>   
         <div id="footer_content">
             <div id="footer-bixo">
@@ -91,6 +94,4 @@
             <a href="../paginas_php/login.php">Area do Administrador</a>
         </div>
     </footer>
-    </main>
-</body>
 </html>
