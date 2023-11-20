@@ -72,7 +72,90 @@
                 <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
-</body>
+
+
+    <div class="slider">
+
+        <div class="slides">
+            <!--RADIO BUTTONS-->
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <input type="radio" name="radio-btn" id="radio7">
+            <input type="radio" name="radio-btn" id="radio8">
+            <!--RADIO BUTTONS-->
+
+            <!--RADIO BUTTONS-->
+
+            <!--slides images-->
+            <div class="slide first">
+                <img src="../imagens/resgate1.jpg" alt="img1" id="img1">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate2.jpg" alt="img2" id="img2">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate3.jpg" alt="img3" id="img3">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate4.jpg" alt="img4" id="img4">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate5.jpg" alt="img5" id="img5">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate6.jpg" alt="img6" id="img6">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate7.jpg" alt="img7" id="img7">
+
+            </div>
+            <div class="slide">
+                <img src="../imagens/resgate8.jpg" alt="img8" id="img8">
+
+            </div>
+
+            <!--slides images-->
+
+            <!--navigation auto-->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+                <div class="auto-btn8"></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+    <label for="radio5" class="manual-btn"></label>
+    <label for="radio6" class="manual-btn"></label>
+    <label for="radio7" class="manual-btn"></label>
+    <label for="radio8" class="manual-btn"></label>
+</div>
+    </body>       
     <footer>   
         <div id="footer_content">
             <div id="footer-bixo">

@@ -69,18 +69,6 @@ button:hover {
     cursor: pointer;
 }
 
-span {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
-
-}
-
-span:hover {
-    font-style: italic;
-
-}
-
 button {
     width: 100px;
     height: 25px;

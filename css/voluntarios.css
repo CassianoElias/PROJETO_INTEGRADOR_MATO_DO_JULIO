@@ -25,6 +25,8 @@ body{
 }
 #box{
     display: block;
+    text-align: center;
+    margin: 0% 20px;
     
 }
 #about{
@@ -39,7 +41,19 @@ body{
     font-family: var(--font-subpage);
     font-size: 40px;
 }
-.img-voluntarios{
+#about2{
+    border: solid black;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: 50%;
+    height: 60px;
+    background-size: 100% 100%;
+    background-color: white;
+    text-align: center;
+    font-family: var(--font-subpage);
+    font-size: 40px;
+}
+.img-voluntarios1{
     border: solid red 10px;
     margin-right: 1%;
     margin-top: 1%;
@@ -47,6 +61,16 @@ body{
     width: 500px;
     height: auto;
 }
+.img-voluntarios2{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 750px;
+    height: auto;
+    
+}
+
 #p1{
     font-family: var(--font-subpage);
     padding: 1%;
@@ -54,3 +78,47 @@ body{
     line-height: 3rem;
     text-indent: 3ch;
 }
+@media screen and (max-width: 920px){
+    body{
+        width: 100%;
+         height: auto;
+    }
+    #about{
+        display: block;
+    }
+    .img-voluntarios1{
+        width: 400px;
+        height: 300;
+    }
+    .img-voluntarios2{
+        width: 500px;
+        height: auto;
+        
+    }
+    #about2{
+        width: 50%;
+        height: 80px;
+    }
+  }
+  @media screen and (max-width: 640px){
+    body{
+        width: 100%;
+         height: auto;
+    }
+    #about{
+        display: block;
+    }
+    .img-voluntarios1{
+        width: 300px;
+        height: 300;
+    }
+    .img-voluntarios2{
+        width: 300px;
+        height: auto;
+        
+    }
+    #about2{
+        width: 50%;
+        height: 150px;
+    }
+  }

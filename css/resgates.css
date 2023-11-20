@@ -14,6 +14,125 @@
 
 body{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: var(--background-verde);
 }
+.slider{
+    
+    margin: 0 auto;
+    width: 800px;
+    height: 1200px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+    margin-top: 35%;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+}
+.slide img{
+    width: 800px;
+    border: solid red 10px;
+   
+}
+#img7, #img8{
+    width: 800px;
+    height: 800px;
+}
+.manual-navigation{
+    margin-left: 30%;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+.manual-btn:hover{
+    background-color: white;
+}
+#radio1:checked ~.first{
+    margin-left: 0;  
+}
+#radio2:checked ~.first{
+    margin-left: -25%;  
+}
+#radio3:checked ~.first{
+    margin-left: -50%;  
+}
+#radio4:checked ~.first{
+    margin-left: -75%;  
+}
+#radio5:checked ~.first{
+    margin-left: -100%;  
+}
+#radio6:checked ~.first{
+    margin-left: -125%;  
+}
+#radio7:checked ~.first{
+    margin-left: -150%;  
+}
+#radio8:checked ~.first{
+    margin-left: -175%;  
+}
+.nagigation-auto div{
+    border: 2px solid #306c34;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.nagigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nagigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .nagigation-auto .auto-btn2{
+    background-color: white;
+}
+#radio3:checked ~ .nagigation-auto .auto-btn3{
+    background-color: white;
+}
+#radio4:checked ~ .nagigation-auto .auto-btn4{
+    background-color: white;
+}
+#radio5:checked ~ .nagigation-auto .auto-btn5{
+    background-color: white;
+}
+#radio6:checked ~ .nagigation-auto .auto-btn6{
+    background-color: white;
+}
+#radio7:checked ~ .nagigation-auto .auto-btn7{
+    background-color: white;
+}
+#radio8:checked ~ .nagigation-auto .auto-btn8{
+    background-color: white;
+}
+
+@media screen and (max-width: 920px)

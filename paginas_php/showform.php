@@ -64,6 +64,9 @@ session_start();
 			?>
             </div>
         <li class="nav-item"><a id="menuadm" href="../paginas_php/login.php">SAIR DA AREA DO ADMINISTRADOR</a></li>
+        <div class="criarConta">
+               <span><a href="cadastroAdm.php"> Crie uma conta!</a> </span> 
+            </div>
             </ul>
             
         </div>    
@@ -78,7 +81,7 @@ session_start();
     <div class="mobile-menu">
         <ul>
         <li class="nav-item"><a id="menuadm" href="../paginas_php/login.php">SAIR DA AREA DO ADMINISTRADOR</a></li>
-        
+         
         </ul>
     </div>
     
@@ -90,6 +93,7 @@ session_start();
 
 <thead>
     <tr>
+        <th>ID</th>
         <th >Nome</th>
         <th >Email</th>
         <th >Telefone</th>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>VoluOtários</title>
+    <title>Voluntários</title>
     <meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
@@ -76,12 +76,12 @@
         <div id="container">
                 <h2 id="about">Voluntários</h2>
                 <div id="box">
-                    <img class="img-voluntarios" src="../imagens/voluntarios1.jpg" alt="coletivomato" title="Voluntarios">
-                    <img class="img-voluntarios" src="../imagens/voluntarios2.jpg" alt="coletivomato" title="Voluntarios">
+                    <img class="img-voluntarios1" src="../imagens/voluntarios1.jpg" alt="coletivomato" title="Voluntarios">
+                    <img class="img-voluntarios2" src="../imagens/voluntarios2.jpg" alt="coletivomato" title="Voluntarios">
                 </div>
                 
         </div>
-                <h2 id="about">O que fazemos?</h2>
+                <h2 id="about2">O que fazemos?</h2>
                 <div>
                     <p id="p1">-> Participação no Conselho Municipal do Meioambiente;</p>
                     <p id="p1">-> Pesquisas científicas na área;</p>

@@ -58,9 +58,6 @@
                 <button type="submit" class="botao" name="entrar" > Entrar </button>
             </div>
 
-            <div class="criarConta">
-                <span><a href="cadastroAdm.php"> Crie uma conta!</a></span>
-            </div>
             <a id="botao-back" href="../index.php">Retornar</a>
 
         </form>

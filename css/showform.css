@@ -10,6 +10,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+span {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration: none;
+
+}
+
+span:hover {
+    font-style: italic;
+
+}
 
 body{
     width: 100%;
