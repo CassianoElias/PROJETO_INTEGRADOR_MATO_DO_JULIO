@@ -74,15 +74,17 @@
     </div>
 
     <div id="container">
-            <h2 id="subtitle1">Caminhada pelo Mato do Júlio - 2020</h2>
+            <h2 id="about">Caminhada pelo Mato do Júlio - 2020</h2>
+            <p>
             <img class="img-voluntarios" src="../imagens/caminhada1.jpg" alt="coletivomato" title="Voluntarios">
             <img class="img-voluntarios" src="../imagens/caminhada2.jpg" alt="coletivomato" title="Voluntarios">
             <img class="img-voluntarios" src="../imagens/caminhada3.jpg" alt="coletivomato" title="Voluntarios">
-            <img class="img-voluntarios" src="../imagens/documento.jpg" alt="coletivomato" title="Voluntarios">
-            <h2 id="subtitle1">O que fazemos?</h2>
-                <p>-> Busca pelo aprimoramento da legislação ambiental domunicípio; </p>
-                <p>-> Doações de alimentos e agasalhos parafamílias carentes; </p>
-                <p>-> Registros de atropelamentos no entorno do Mato. </p>
+            <img class="img-voluntarios" src="../imagens/documento.jpg" alt="coletivomato" title="Voluntarios"></p>
+            
+            <h2 id="about">O que fazemos?</h2>
+                <p class="p1">-> Busca pelo aprimoramento da legislação ambiental domunicípio; </p>
+                <p class="p1">-> Doações de alimentos e agasalhos parafamílias carentes; </p>
+                <p class="p1">-> Registros de atropelamentos no entorno do Mato. </p>
              
         </div>
 

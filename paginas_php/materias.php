@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
     <!--links css--->
-	<link rel="stylesheet" type="text/css" href="../css/acoes.css">
+	<link rel="stylesheet" type="text/css" href="../css/materias.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -72,6 +72,15 @@
                 <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
+    <h1 id="about">Confira algumas materias e videos sobre o assunto</h1>
+    <div id="container">
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_CQ1n5Jrsso?si=6suIKtTQCilcIMcv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/EwMfpSPMLIc?si=IZqh1nsLaTvhKyOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/C8Nv5kl0mzk?si=YUG6pBtcJPWPjD-p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>    
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/cFAH0H1G27s?si=DU0UG97gMZeHrPqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NuGAXHjiRWo?si=_WNNm5bqnTT-mn5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    </div>
+
 </body>
 <footer>   
         <div id="footer_content">

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
     <!--links css--->
-	<link rel="stylesheet" type="text/css" href="../css/voluntarios.css">
+	<link rel="stylesheet" type="text/css" href="../css/produtos.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -72,6 +72,14 @@
                 <li class="nav-item"><a href="materias.php" class="nav-link" >Matérias</a></li>
                 <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
+    </div>
+    <h1 id="about">Confira nossos produtos</h1>
+
+    <div id="container-img">
+        <img class="img1" src="../imagens/caneca1.jpg" alt="">
+        <img class="img2" src="../imagens/caneca2.jpg" alt="">
+        <img class="img1" src="../imagens/camisa1.jpg" alt="">
+        <img class="img2" src="../imagens/camisa2.jpg" alt="">
     </div>
 </body>
     <footer>   

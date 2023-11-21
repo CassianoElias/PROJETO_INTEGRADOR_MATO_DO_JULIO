@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	
 	<link rel="shortcut icon" type="image/x-icon" href="../imagens/favicon/icon_favicon.ico">
         <!--links css--->
-	<link rel="stylesheet" type="text/css" href="../css/voluntarios.css">
+	<link rel="stylesheet" type="text/css" href="../css/doacoes.css">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/scrollbar.css"> 
@@ -72,6 +72,12 @@
                 <li class="nav-item"><a href="fale-conosco.php" class="nav-link" >Fale Conosco</a></li>
         </ul>
     </div>
+    <h1 id="about">Voce pode nos ajudar atrasves de nossa vaquinha</h1>
+
+    <p><img id="vakinha" src="../imagens/vakinha.jpg" alt="vakinha"></p>
+
+    <p id="p1"><a href="https://www.vakinha.com.br/vaquinha/ajuda-para-comprar-um-drone-alan-da-costa-silva">Acesse a Vakinha</a></p>
+
 </body>
 <footer>   
         <div id="footer_content">

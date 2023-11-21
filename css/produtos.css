@@ -17,10 +17,21 @@ body{
     height: auto;
     background-color: var(--background-verde);
 }
+#container-img{
+    padding-top: 5%;
+}
 
+.img1, .img2{
+    border: solid red 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 500px;
+    height: auto;
+}
 #about{
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     border: solid black;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
@@ -30,39 +41,4 @@ body{
     text-align: center;
     font-family: var(--font-subpage);
     font-size: 40px;
-}
-#container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.p1{
-    font-family: var(--font-subpage);
-    padding: 1%;
-    font-size: 25px;
-    line-height: 3rem;
-    text-indent: 3ch;
-}
-.img-voluntarios{
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 800px;
-    height: auto;
-    border: solid 5px red;
-    
-}
-@media screen and (max-width: 920px){
-    .img-voluntarios{
-        width: 500px;
-        height: auto;
-    }
-    #about{
-        width: 80%;
-    }
-}
-@media screen and (max-width: 540px){
-    .img-voluntarios{
-        width: 300px;
-        height: auto;
-    }
 }
