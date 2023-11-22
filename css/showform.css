@@ -95,10 +95,14 @@ tbody{
 
 
 
-@media screen and (max-width: 920px){
-    #menuadm{
-        width: 100%;
-         height: 20px;
+@media (max-width: 620px) {
+    table {
+      width: auto;
+      overflow-x: auto;
+      margin: 0 auto;
     }
-
-     }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
